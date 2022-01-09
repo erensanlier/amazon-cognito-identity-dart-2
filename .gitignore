@@ -1,0 +1,33 @@
+# See https://www.dartlang.org/guides/libraries/private-files
+
+# Files and directories created by pub
+.dart_tool/
+.packages
+.pub/
+build/
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+# If you're building an application, you may want to check-in your pubspec.lock
+pubspec.lock
+
+# Files and directories created by IDE
+.vscode
+.idea
+cognito-dart.code-workspace
+
+# Directory created by dartdoc
+# If you don't generate documentation locally you can remove this line.
+doc/api/
+
+# Ignore private tests
+test/_*_test.dart
+example/test
+
+# Ignore coverage results
+coverage/
+
+# Ignore OS logs/store
+.DS_Store
+example/lib/secrets.dart
+example/.flutter-plugins-dependencies
